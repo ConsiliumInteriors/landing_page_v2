@@ -192,11 +192,8 @@ export default {
     },
     methods: {
       submitForm() {
-        console.log('submitForm invoked.'); 
-        console.log(this.$refs.form.validate())
         this.valid = this.$refs.form.validate();
         this.timestamp = this.getNow();
-        console.log('At time: ',this.timestamp);
         if (this.valid) {
             const newUser = {
                 email: this.email,

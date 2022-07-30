@@ -8,9 +8,6 @@
                     How do I get started..
                     <v-icon color="primary" size="42px" class=" ml-2 mb-4">mdi-chat-question-outline </v-icon>
                 </h3> 
-
-
-
                 </span>
             </v-col>
             <v-col cols="12" md="3" class="pa-8 text-center" v-for="(step,idx) in steps" v-bind:key="idx">
